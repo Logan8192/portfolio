@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+$dark-blue: #333652;
+$dark-blue-tint: #474a63;
+
+// Update Bulma's global variables
+$primary: $dark-blue;
+$info: $dark-blue-tint;
+
+.card {
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../images/hero-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@import '~bulma/bulma.sass';
