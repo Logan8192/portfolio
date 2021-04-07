@@ -30,7 +30,7 @@ npm i
 gatsby develop
 ```
 
-## Run Linter:
+## Run Linter
 
 - Run eslint without automatic code fixes:
 
@@ -44,7 +44,7 @@ npm run lint
 npm run lint:fix
 ```
 
-## Developed With:
+## Developed With
 
 - [Node.js](https://nodejs.org/en/): JavaScript runtime for the development of web applications.
 - [React](https://reactjs.org/): Front-end library for JavaScript/TypeScript.
