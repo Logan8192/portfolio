@@ -54,7 +54,7 @@ export default function Home() {
                   </figure>
                 </div>
                 <div className="card-content">
-                  <div className="media-content">
+                  <div className="content">
                     <p className="title is-4">Spotify Extended Search</p>
                     <p className="subtitle">
                       <a
@@ -67,16 +67,14 @@ export default function Home() {
                         <span>{t('repository')}</span>
                       </a>
                     </p>
-                    <div className="content">
-                      <div className="tags">
-                        <p>{t('sesDescription')}</p>
-                        <span className="tag is-black">Bulma CSS</span>
-                        <span className="tag is-black">Expressjs</span>
-                        <span className="tag is-black">Font Awesome</span>
-                        <span className="tag is-black">JavaScript</span>
-                        <span className="tag is-black">Nodejs</span>
-                        <span className="tag is-black">Pugjs</span>
-                      </div>
+                    <p>{t('sesDescription')}</p>
+                    <div className="tags">
+                      <span className="tag is-black">Bulma CSS</span>
+                      <span className="tag is-black">Expressjs</span>
+                      <span className="tag is-black">Font Awesome</span>
+                      <span className="tag is-black">JavaScript</span>
+                      <span className="tag is-black">Nodejs</span>
+                      <span className="tag is-black">Pugjs</span>
                     </div>
                   </div>
                 </div>
