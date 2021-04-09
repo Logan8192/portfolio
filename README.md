@@ -44,6 +44,12 @@ npm run lint
 npm run lint:fix
 ```
 
+## Deploy to GitHub Pages
+
+```
+npm run deploy
+```
+
 ## Developed With
 
 - [Node.js](https://nodejs.org/en/): JavaScript runtime for the development of web applications.
