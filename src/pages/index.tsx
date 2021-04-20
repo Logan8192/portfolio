@@ -3,11 +3,13 @@ import { graphql } from 'gatsby';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 import { AiFillLinkedin } from '@react-icons/all-files/ai/AiFillLinkedin';
 import { AiFillGithub } from '@react-icons/all-files/ai/AiFillGithub';
+import { AiFillMobile } from '@react-icons/all-files/ai/AiFillMobile';
 import { BiCodeCurly } from '@react-icons/all-files/bi/BiCodeCurly';
 import { CgBrowser } from '@react-icons/all-files/cg/CgBrowser';
 import { FaServer } from '@react-icons/all-files/fa/FaServer';
 import Layout from '~components/layout';
 import SESImage from '~images/spotify-extended-search/home_page.png';
+import MAAImage from '~images/marvel-api-app/marvel-api-app.jpeg';
 import SEO from '~components/seo';
 
 export default function Home() {
@@ -46,6 +48,38 @@ export default function Home() {
             {t('portfolio')}
           </h2>
           <div className="columns is-multiline">
+            <div className="column is-6">
+              <div className="card">
+                <div className="card-image">
+                  <figure className="image 16by9">
+                    <img src={MAAImage} alt="Project screenshot" />
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <p className="title is-4">Marvel API - Mobile App</p>
+                    <p className="subtitle">
+                      <a
+                        className="button is-black is-size-6"
+                        href="https://github.com/Logan8192/marvel-api-app"
+                      >
+                        <span className="icon">
+                          <AiFillGithub />
+                        </span>
+                        <span>{t('repository')}</span>
+                      </a>
+                    </p>
+                    <p>{t('maaDescription')}</p>
+                    <div className="tags">
+                      <span className="tag is-black">React Native</span>
+                      <span className="tag is-black">Native Base</span>
+                      <span className="tag is-black">TypeScript</span>
+                      <span className="tag is-black">Android</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="column is-6">
               <div className="card">
                 <div className="card-image">
@@ -122,6 +156,23 @@ export default function Home() {
                       <li>Gatsby.js</li>
                       <li>Pug.js</li>
                       <li>React</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="column is-4">
+              <div className="card">
+                <div className="card-content">
+                  <p className="title has-text-centered">
+                    {t('mobileDevelopment')}
+                  </p>
+                  <p className="subtitle is-size-2 has-text-centered">
+                    <AiFillMobile />
+                  </p>
+                  <div className="content">
+                    <ul>
+                      <li>React Native</li>
                     </ul>
                   </div>
                 </div>
