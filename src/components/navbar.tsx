@@ -83,6 +83,7 @@ export default function Navbar() {
               {languages.map(lng => (
                 <button
                   type="button"
+                  key={lng}
                   className="button is-fullwidth is-link has-text-black-bis is-inverted navbar-item"
                   onClick={e => {
                     activateNavbarBurger();

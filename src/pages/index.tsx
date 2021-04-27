@@ -7,6 +7,8 @@ import { AiFillMobile } from '@react-icons/all-files/ai/AiFillMobile';
 import { BiCodeCurly } from '@react-icons/all-files/bi/BiCodeCurly';
 import { CgBrowser } from '@react-icons/all-files/cg/CgBrowser';
 import { FaServer } from '@react-icons/all-files/fa/FaServer';
+import { FiPackage } from '@react-icons/all-files/fi/FiPackage';
+import { GrTest } from '@react-icons/all-files/gr/GrTest';
 import Layout from '~components/layout';
 import SESImage from '~images/spotify-extended-search/home_page.png';
 import MAAImage from '~images/marvel-api-app/marvel-api-app.jpeg';
@@ -16,16 +18,16 @@ export default function Home() {
   const { t } = useTranslation();
   return (
     <Layout>
-      <SEO title={t('name')} />
+      <SEO title={t('name')} metaDescription={t('metaDescription')} />
       <section className="hero is-fullheight">
         <div className="hero-body hero-image">
           <div className="container has-text-centered">
             <h2 className="is-size-2 has-text-light has-text-centered">
               {t('name')}
             </h2>
-            <h3 className="is-size-3 has-text-light has-text-centered">
-              {t('role')}
-            </h3>
+            <p className="is-size-4 has-text-light has-text-centered">
+              {t('metaDescription')}
+            </p>
             <a
               className="is-size-3 has-text-light has-text-centered"
               href="http://www.linkedin.com/in/victor-cubilla-737b901ab"
@@ -193,6 +195,44 @@ export default function Home() {
                       <li>JavaScript/TypeScript</li>
                       <li>PHP</li>
                       <li>Python</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="column is-4">
+              <div className="card">
+                <div className="card-content">
+                  <p className="title has-text-centered">
+                    CI/CD
+                  </p>
+                  <p className="subtitle is-size-2 has-text-centered">
+                    <FiPackage />
+                  </p>
+                  <div className="content">
+                    <ul>
+                      <li>Docker</li>
+                      <li>Jenkins</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="column is-4">
+              <div className="card">
+                <div className="card-content">
+                  <p className="title has-text-centered">
+                    Testing
+                  </p>
+                  <p className="subtitle is-size-2 has-text-centered">
+                    <GrTest />
+                  </p>
+                  <div className="content">
+                    <ul>
+                      <li>Jest</li>
+                      <li>Mocha</li>
+                      <li>PHPUnit</li>
+                      <li>UnitTest (Python)</li>
                     </ul>
                   </div>
                 </div>
