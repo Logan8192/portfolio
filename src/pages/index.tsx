@@ -36,7 +36,7 @@ export default function Home() {
             </a>
             <a
               className="is-size-3 has-text-light has-text-centered"
-              href="https://github.com/Logan8192"
+              href="https://github.com/VictorDevCode"
             >
               <AiFillGithub />
             </a>
@@ -63,7 +63,7 @@ export default function Home() {
                     <p className="subtitle">
                       <a
                         className="button is-black is-size-6"
-                        href="https://github.com/Logan8192/marvel-api-app"
+                        href="https://github.com/VictorDevCode/marvel-api-app"
                       >
                         <span className="icon">
                           <AiFillGithub />
@@ -95,7 +95,7 @@ export default function Home() {
                     <p className="subtitle">
                       <a
                         className="button is-black is-size-6"
-                        href="https://github.com/Logan8192/Spotify-Extended-Search"
+                        href="https://github.com/VictorDevCode/spotify-extended-search"
                       >
                         <span className="icon">
                           <AiFillGithub />
@@ -135,10 +135,12 @@ export default function Home() {
                   </p>
                   <div className="content">
                     <ul>
+                      <li>.NET Core</li>
                       <li>Express.js</li>
                       <li>Laravel</li>
                       <li>MySQL/MariaDB</li>
                       <li>Node.js</li>
+                      <li>SQL Server</li>
                     </ul>
                   </div>
                 </div>
@@ -153,6 +155,7 @@ export default function Home() {
                   </p>
                   <div className="content">
                     <ul>
+                      <li>Angular</li>                     
                       <li>Bootstrap</li>
                       <li>Bulma CSS</li>
                       <li>Gatsby.js</li>
@@ -191,6 +194,7 @@ export default function Home() {
                   </p>
                   <div className="content">
                     <ul>
+                      <li>C#</li>
                       <li>Java</li>
                       <li>JavaScript/TypeScript</li>
                       <li>PHP</li>
@@ -211,8 +215,10 @@ export default function Home() {
                   </p>
                   <div className="content">
                     <ul>
+                      <li>Azure</li>
                       <li>Docker</li>
                       <li>Jenkins</li>
+                      <li>TeamCity</li>
                     </ul>
                   </div>
                 </div>
@@ -222,10 +228,10 @@ export default function Home() {
               <div className="card">
                 <div className="card-content">
                   <p className="title has-text-centered">
-                    Testing
+                  Testing
                   </p>
                   <p className="subtitle is-size-2 has-text-centered">
-                    <GrTest />
+                  <GrTest />
                   </p>
                   <div className="content">
                     <ul>
