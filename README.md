@@ -30,6 +30,12 @@ npm i
 gatsby develop
 ```
 
+## Or a production build
+
+```
+gatsby serve
+```
+
 ## Run Linter
 
 - Run eslint without automatic code fixes:

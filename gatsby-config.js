@@ -4,7 +4,7 @@ module.exports = {
       {
         name: `Spotify Extended Search`,
         links: {
-          github: 'https://github.com/Logan8192/Spotify-Extended-Search',
+          github: 'https://github.com/VictorDevCode/Spotify-Extended-Search',
         },
       },
     ],
