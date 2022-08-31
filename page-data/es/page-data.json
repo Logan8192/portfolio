@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-tsx",
+    "path": "/es/",
+    "result": {"data":{"locales":{"edges":[{"node":{"ns":"common","data":"{\"maaDescription\":\"Aplicación móvil que utiliza la API de Marvel para obtener información sobre personajes, comics, eventos y mucho más.\",\"name\":\"Víctor Cubilla\",\"portfolio\":\"Portafolio\",\"repository\":\"Repositorio\",\"sesDescription\":\"Aplicación web que utiliza la API de Spotify para obtener información adicional sobre artistas, álbumes y canciones.\",\"skills\":\"Habilidades\"}","language":"es"}},{"node":{"ns":"index","data":"{\"metaDescription\":\"Desarrollador full stack especializado en front-end, back-end y aplicaciones móviles.\",\"mobileDevelopment\":\"Desarrollo Móvil\",\"programmingLanguages\":\"Lenguajes de Programación\"}","language":"es"}},{"node":{"ns":"navbar","data":"{\"en\":\"English\",\"es\":\"Español\",\"language\":\"Idioma\"}","language":"es"}}]}},"pageContext":{"language":"es","i18n":{"language":"es","languages":["en","es"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":true,"originalPath":"/","path":"es/"}}},
+    "staticQueryHashes": []}

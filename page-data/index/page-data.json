@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-tsx",
+    "path": "/",
+    "result": {"data":{"locales":{"edges":[{"node":{"ns":"common","data":"{\"maaDescription\":\"Mobile app who uses Marvel's API to get info about characters, comics, series and more.\",\"name\":\"Victor Cubilla\",\"portfolio\":\"Portfolio\",\"repository\":\"Repository\",\"sesDescription\":\"Web app who uses Spotify's API to obtain additional information about artists, albums and tracks.\",\"skills\":\"Skills\"}","language":"en"}},{"node":{"ns":"index","data":"{\"metaDescription\":\"Full stack developer specialized in front-end, back-end, and mobile apps.\",\"mobileDevelopment\":\"Mobile Development\",\"programmingLanguages\":\"Programming Languages\"}","language":"en"}},{"node":{"ns":"navbar","data":"{\"en\":\"English\",\"es\":\"Español\",\"language\":\"Language\"}","language":"en"}}]}},"pageContext":{"language":"en","i18n":{"language":"en","languages":["en","es"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":false,"originalPath":"/","path":"/"}}},
+    "staticQueryHashes": []}
