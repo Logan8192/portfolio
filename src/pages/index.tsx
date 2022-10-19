@@ -137,9 +137,12 @@ export default function Home() {
                     <ul>
                       <li>.NET Core</li>
                       <li>Express.js</li>
+                      <li>Elasticsearch</li>
                       <li>Laravel</li>
                       <li>MySQL/MariaDB</li>
                       <li>Node.js</li>
+                      <li>PostgreSQL</li>
+                      <li>Ruby on Rails</li>
                       <li>SQL Server</li>
                     </ul>
                   </div>
@@ -155,12 +158,14 @@ export default function Home() {
                   </p>
                   <div className="content">
                     <ul>
-                      <li>Angular</li>                     
+                      <li>Angular</li>
                       <li>Bootstrap</li>
                       <li>Bulma CSS</li>
+                      <li>CSS</li>
                       <li>Gatsby.js</li>
                       <li>Pug.js</li>
                       <li>React</li>
+                      <li>Sass</li>
                     </ul>
                   </div>
                 </div>
@@ -177,6 +182,7 @@ export default function Home() {
                   </p>
                   <div className="content">
                     <ul>
+                      <li>Android</li>
                       <li>React Native</li>
                     </ul>
                   </div>
@@ -199,6 +205,7 @@ export default function Home() {
                       <li>JavaScript/TypeScript</li>
                       <li>PHP</li>
                       <li>Python</li>
+                      <li>Ruby</li>
                     </ul>
                   </div>
                 </div>
@@ -215,9 +222,11 @@ export default function Home() {
                   </p>
                   <div className="content">
                     <ul>
+                      <li>AWS</li>
                       <li>Azure</li>
                       <li>Docker</li>
                       <li>Jenkins</li>
+                      <li>Kubernetes</li>
                       <li>TeamCity</li>
                     </ul>
                   </div>

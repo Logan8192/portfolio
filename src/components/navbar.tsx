@@ -35,9 +35,7 @@ export default function Navbar() {
             activateNavbarBurger();
           }}
         >
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
+        {[...Array(3)].map(() => <span aria-hidden="true" />)}
         </button>
       </div>
 
